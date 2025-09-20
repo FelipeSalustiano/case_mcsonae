@@ -1,0 +1,1201 @@
+﻿id,nome_funcionario,salario,area_atuacao
+1,Fernanda Silva,8777.1,Financeiro
+2,Rafael Silva,10193.11,Jurídico
+3,Felipe Costa,14635.36,Marketing
+4,Lucas Oliveira,14958.1,VENDAS
+5,MARIANA LIMA,11419.77,
+6,Ana Souza,3307.48,
+7,felipe santos,12496.09,RH
+8,Julia Lima,13334.83,TI
+9,Julia Nascimento,10151.88,TI
+10,,8927.13,Jurídico
+11,fernanda nascimento,14858.28,TI
+12,Mariana Almeida,13337.34,LOGÍSTICA
+13,Julia Costa,9497.7,Produção
+14,Paula Lima,2244.35,TI
+15,CARLOS SOUZA,7011.49,vendas
+16,Paula Silva,6431.27,
+17,FELIPE RODRIGUES,12575.08,VENDAS
+18,ANA OLIVEIRA,2122.21,produção
+19,lucas nascimento,10274.55,TI
+20,THIAGO ALMEIDA,8674.69,Produção
+21,ANA SILVA,13969.07,jurídico
+22,Thiago Lima,10290.79,LOGÍSTICA
+23,Thiago Costa,8237.17,VENDAS
+24,paula silva,6939.16,Produção
+25,João Pereira,11491.26,PRODUÇÃO
+26,,14955.71,logística
+27,MARIANA OLIVEIRA,9414.8,logística
+28,Carlos Rodrigues,12298.58,TI
+29,Thiago Pereira,7934.44,VENDAS
+30,João Rodrigues,,Logística
+31,Julia Oliveira,13279.27,FINANCEIRO
+32,Mariana Santos,7349.7,VENDAS
+33,Carlos Lima,5625.47,Marketing
+34,,8619.49,Produção
+35,Lucas Souza,4905.57,RH
+36,LUCAS SANTOS,3586.08,Financeiro
+37,Rafael Lima,3435.28,Financeiro
+38,Carlos Costa,3942.54,produção
+39,Carlos Oliveira,11178.37,Vendas
+40,Paula Almeida,1557.9,jurídico
+41,,14381.97,RH
+42,CARLOS NASCIMENTO,11994.82,Financeiro
+43,,8310.67,Financeiro
+44,,13718.07,Produção
+45,Paula Almeida,14490.15,
+46,Julia Almeida,3173.25,LOGÍSTICA
+47,RAFAEL ALMEIDA,13579.82,Marketing
+48,Rafael Souza,12950.52,LOGÍSTICA
+49,Thiago Souza,2420.15,Logística
+50,Paula Silva,12165.5,RH
+51,LUCAS RODRIGUES,4428.85,RH
+52,Felipe Silva,4679.89,Produção
+53,FELIPE SOUZA,9564.19,Financeiro
+54,Amanda Oliveira,14249.4,RH
+55,LUCAS OLIVEIRA,5575.08,
+56,Amanda Almeida,12385.3,
+57,,12583.54,TI
+58,Carlos Pereira,2052.11,marketing
+59,Thiago Pereira,3825.18,RH
+60,Carlos Nascimento,2733.33,Jurídico
+61,FELIPE RODRIGUES,9733.42,ti
+62,fernanda santos,3832.21,LOGÍSTICA
+63,,14458.66,MARKETING
+64,Paula Silva,14831.32,Produção
+65,LUCAS PEREIRA,6826.38,Financeiro
+66,Thiago Souza,7966.93,Financeiro
+67,Rafael Lima,3396.72,MARKETING
+68,Rafael Rodrigues,10181.56,Marketing
+69,AMANDA SILVA,9109.5,Produção
+70,MARIANA RODRIGUES,14215.42,
+71,Julia Lima,11041.47,Logística
+72,rafael pereira,7383.08,Marketing
+73,Rafael Souza,8900.72,RH
+74,,4859.31,ti
+75,rafael costa,,Logística
+76,Mariana Nascimento,6604.09,Jurídico
+77,Ana Lima,10594.71,Marketing
+78,Mariana Lima,10744.67,Marketing
+79,Carlos Pereira,5649.15,LOGÍSTICA
+80,Felipe Almeida,10995.52,TI
+81,CARLOS NASCIMENTO,-3464.39,
+82,Fernanda Almeida,8849.29,Produção
+83,Felipe Santos,13887.21,Marketing
+84,ana costa,10712.43,Financeiro
+85,Fernanda Santos,1858.3,RH
+86,,13395.08,Jurídico
+87,RAFAEL SANTOS,-6163.98,Vendas
+88,amanda silva,12721.94,LOGÍSTICA
+89,Paula Pereira,14709.77,Vendas
+90,Carlos Silva,5053.96,TI
+91,João Costa,8919.8,Jurídico
+92,Thiago Lima,5648.45,financeiro
+93,Paula Costa,9261.79,Marketing
+94,Lucas Souza,9307.11,TI
+95,THIAGO SILVA,3197.31,TI
+96,Ana Almeida,11904.81,Produção
+97,,-13075.3,
+98,JOÃO PEREIRA,2371.13,Marketing
+99,Julia Rodrigues,10249.22,vendas
+100,Carlos Almeida,13420.8,produção
+101,,10429.05,TI
+102,Felipe Almeida,12401.29,TI
+103,JULIA COSTA,6002.01,logística
+104,Lucas Santos,10640.03,Logística
+105,Fernanda Souza,5660.51,TI
+106,João Silva,13780.61,Vendas
+107,Ana Nascimento,13852.66,marketing
+108,Amanda Souza,3650.95,Logística
+109,FERNANDA OLIVEIRA,6475.64,FINANCEIRO
+110,Mariana Oliveira,12073.1,Financeiro
+111,FELIPE NASCIMENTO,-8525.8,Vendas
+112,Carlos Pereira,11525.88,Marketing
+113,João Rodrigues,10451.75,TI
+114,Mariana Santos,1680.99,VENDAS
+115,paula oliveira,6239.77,ti
+116,Thiago Rodrigues,10911.27,TI
+117,Rafael Oliveira,6084.98,Financeiro
+118,Amanda Santos,12710.75,Vendas
+119,Mariana Pereira,2830.47,Vendas
+120,Rafael Santos,6654.97,Marketing
+121,Lucas Costa,13627.13,financeiro
+122,Amanda Pereira,,JURÍDICO
+123,JOÃO OLIVEIRA,9935.55,VENDAS
+124,ana costa,10085.26,TI
+125,Paula Costa,9427.7,RH
+126,Felipe Nascimento,,
+127,Lucas Rodrigues,14081.99,Logística
+128,LUCAS COSTA,5516.96,Jurídico
+129,Lucas Lima,9083.99,Produção
+130,lucas lima,8015.72,FINANCEIRO
+131,Carlos Rodrigues,,Jurídico
+132,mariana nascimento,4947.92,RH
+133,Amanda Santos,10950.86,Produção
+134,Lucas Santos,12237.77,PRODUÇÃO
+135,Fernanda Lima,13682.76,RH
+136,Rafael Nascimento,4150.71,Logística
+137,,13994.21,Marketing
+138,Paula Santos,8158.0,rh
+139,lucas pereira,2932.09,Financeiro
+140,Ana Silva,10678.43,Marketing
+141,Felipe Almeida,5785.81,Jurídico
+142,rafael silva,12285.53,RH
+143,Lucas Silva,6486.33,Financeiro
+144,JULIA ALMEIDA,-8761.87,
+145,carlos rodrigues,7421.59,TI
+146,ana costa,7282.85,Jurídico
+147,João Rodrigues,7476.85,jurídico
+148,,11024.67,RH
+149,AMANDA NASCIMENTO,14699.14,Financeiro
+150,JOÃO SOUZA,2568.1,Logística
+151,felipe silva,11889.16,PRODUÇÃO
+152,CARLOS LIMA,1853.61,PRODUÇÃO
+153,MARIANA SANTOS,7783.08,vendas
+154,Amanda Silva,3108.26,TI
+155,ANA ALMEIDA,2484.77,LOGÍSTICA
+156,Julia Lima,6126.6,TI
+157,Ana Silva,,logística
+158,Carlos Santos,8775.72,
+159,Fernanda Lima,,Logística
+160,,1505.93,Vendas
+161,,11333.68,TI
+162,,3598.71,Jurídico
+163,João Santos,7327.48,RH
+164,CARLOS COSTA,4527.76,
+165,paula santos,12443.05,Produção
+166,,,FINANCEIRO
+167,,4779.75,Vendas
+168,João Oliveira,5281.68,Marketing
+169,João Rodrigues,3942.31,Financeiro
+170,FERNANDA SOUZA,2672.29,vendas
+171,Ana Santos,2612.84,RH
+172,João Pereira,5013.45,PRODUÇÃO
+173,julia souza,14728.23,Financeiro
+174,PAULA SANTOS,13227.21,RH
+175,Fernanda Nascimento,8995.07,TI
+176,rafael costa,5453.78,marketing
+177,RAFAEL PEREIRA,10069.75,rh
+178,RAFAEL SANTOS,7087.62,TI
+179,,8753.84,RH
+180,,9469.66,Logística
+181,Ana Silva,2173.22,PRODUÇÃO
+182,Carlos Santos,1800.34,financeiro
+183,,11060.28,Logística
+184,FELIPE SILVA,,LOGÍSTICA
+185,Thiago Oliveira,5012.54,TI
+186,Paula Nascimento,2910.82,
+187,Carlos Souza,6307.2,Logística
+188,Thiago Rodrigues,14269.53,Financeiro
+189,Paula Costa,10851.25,Financeiro
+190,ANA COSTA,14799.46,Vendas
+191,,13896.66,Vendas
+192,,14183.05,Jurídico
+193,PAULA SOUZA,6623.81,
+194,Lucas Almeida,8292.67,
+195,Carlos Lima,2091.01,TI
+196,Mariana Santos,13839.64,RH
+197,Carlos Souza,6211.83,Financeiro
+198,Felipe Silva,11083.14,rh
+199,,3811.03,Vendas
+200,Julia Nascimento,7086.05,Logística
+201,Fernanda Rodrigues,14573.59,
+202,Felipe Silva,4223.17,Produção
+203,Ana Santos,5401.63,Marketing
+204,Thiago Pereira,13802.29,Vendas
+205,Amanda Rodrigues,12002.6,FINANCEIRO
+206,MARIANA LIMA,10887.77,RH
+207,Paula Almeida,14331.4,Produção
+208,Rafael Pereira,6294.62,TI
+209,,11310.46,Financeiro
+210,Thiago Santos,7105.98,Logística
+211,MARIANA ALMEIDA,7986.54,Produção
+212,Rafael Santos,11318.04,Financeiro
+213,Felipe Silva,14710.43,Vendas
+214,Carlos Almeida,2259.73,Vendas
+215,Rafael Silva,4093.8,TI
+216,Fernanda Lima,11058.48,Marketing
+217,Carlos Nascimento,14572.4,Jurídico
+218,João Costa,-13123.33,Marketing
+219,Rafael Pereira,3944.81,Produção
+220,mariana almeida,14430.2,vendas
+221,julia silva,14677.29,RH
+222,Fernanda Souza,8468.41,Marketing
+223,Julia Nascimento,9977.84,LOGÍSTICA
+224,Felipe Oliveira,14073.14,ti
+225,Julia Almeida,7538.4,Marketing
+226,julia nascimento,14831.41,Jurídico
+227,PAULA SANTOS,11972.47,Vendas
+228,THIAGO SILVA,,vendas
+229,Rafael Oliveira,7731.4,Marketing
+230,,,Jurídico
+231,JULIA COSTA,7501.1,Jurídico
+232,Carlos Pereira,3663.68,PRODUÇÃO
+233,RAFAEL SILVA,6547.55,PRODUÇÃO
+234,Ana Lima,12161.4,Financeiro
+235,Carlos Costa,13907.77,financeiro
+236,PAULA RODRIGUES,8805.59,Marketing
+237,,6131.24,RH
+238,Ana Almeida,8645.06,Produção
+239,Ana Almeida,8878.34,Jurídico
+240,Thiago Lima,3929.55,RH
+241,,11106.19,Financeiro
+242,FELIPE SILVA,2564.74,Logística
+243,RAFAEL RODRIGUES,,Produção
+244,,8214.51,RH
+245,João Souza,2878.09,logística
+246,rafael souza,1825.98,TI
+247,RAFAEL LIMA,6975.94,JURÍDICO
+248,Thiago Lima,,Logística
+249,,13122.94,MARKETING
+250,AMANDA LIMA,5476.85,Jurídico
+251,Felipe Lima,,RH
+252,Rafael Nascimento,8297.17,
+253,ANA NASCIMENTO,,TI
+254,Fernanda Souza,8096.69,RH
+255,Thiago Silva,6308.07,Marketing
+256,Lucas Almeida,8705.55,logística
+257,thiago costa,3377.46,TI
+258,LUCAS COSTA,2586.92,Marketing
+259,,,logística
+260,João Rodrigues,10382.33,jurídico
+261,lucas costa,7419.24,RH
+262,Lucas Pereira,2512.55,Marketing
+263,LUCAS ALMEIDA,,RH
+264,CARLOS OLIVEIRA,6039.31,TI
+265,,3649.35,RH
+266,LUCAS SANTOS,10095.84,Jurídico
+267,Lucas Oliveira,3182.99,Jurídico
+268,João Almeida,5129.23,
+269,Fernanda Rodrigues,-4611.11,jurídico
+270,lucas souza,14554.19,RH
+271,Fernanda Rodrigues,14694.65,Vendas
+272,Thiago Costa,5636.62,Jurídico
+273,Julia Rodrigues,2194.02,TI
+274,ANA OLIVEIRA,6836.58,FINANCEIRO
+275,João Santos,10934.28,VENDAS
+276,Amanda Nascimento,6034.66,Marketing
+277,paula souza,10941.44,Marketing
+278,Ana Costa,10500.82,FINANCEIRO
+279,paula oliveira,3313.26,FINANCEIRO
+280,Ana Pereira,5444.31,Vendas
+281,Julia Costa,6326.64,
+282,Mariana Souza,9144.24,Marketing
+283,FELIPE PEREIRA,12845.21,Financeiro
+284,joão nascimento,4341.83,Marketing
+285,Rafael Almeida,7983.26,Marketing
+286,Fernanda Souza,9926.13,Financeiro
+287,Mariana Lima,5187.67,TI
+288,Thiago Costa,2333.42,Financeiro
+289,AMANDA SOUZA,2668.07,Logística
+290,,10646.29,financeiro
+291,LUCAS RODRIGUES,9368.33,TI
+292,Fernanda Silva,13543.9,Produção
+293,carlos oliveira,3612.04,Marketing
+294,Julia Lima,13323.3,RH
+295,Fernanda Silva,9581.6,TI
+296,Thiago Rodrigues,9506.03,RH
+297,thiago souza,14023.26,RH
+298,João Almeida,8068.93,ti
+299,,2155.15,TI
+300,Thiago Pereira,14038.91,jurídico
+301,Julia Costa,14108.1,RH
+302,Felipe Silva,10829.81,LOGÍSTICA
+303,Thiago Pereira,5687.86,
+304,Thiago Lima,13742.11,
+305,João Souza,-7342.83,produção
+306,Thiago Pereira,2523.99,TI
+307,Paula Lima,2061.83,
+308,João Oliveira,8756.57,RH
+309,MARIANA SOUZA,1827.95,Marketing
+310,FELIPE NASCIMENTO,,TI
+311,Paula Souza,7721.31,FINANCEIRO
+312,,13944.75,Vendas
+313,JOÃO RODRIGUES,12552.0,Financeiro
+314,FERNANDA SILVA,9671.93,PRODUÇÃO
+315,Mariana Santos,14071.91,Produção
+316,FELIPE COSTA,4476.78,RH
+317,Julia Almeida,2218.44,Produção
+318,Carlos Silva,3339.26,RH
+319,joão rodrigues,13152.44,marketing
+320,Paula Souza,3964.32,TI
+321,amanda lima,7689.87,Produção
+322,Ana Souza,14220.5,Jurídico
+323,felipe oliveira,9981.37,TI
+324,CARLOS COSTA,12317.85,PRODUÇÃO
+325,rafael costa,13962.44,Logística
+326,,,financeiro
+327,Lucas Lima,3745.99,RH
+328,,10710.87,ti
+329,JULIA SILVA,12766.48,vendas
+330,Thiago Souza,12551.48,Produção
+331,Mariana Costa,9132.42,LOGÍSTICA
+332,Thiago Lima,6437.96,TI
+333,THIAGO PEREIRA,6765.63,RH
+334,Julia Rodrigues,1525.0,Financeiro
+335,Carlos Pereira,4282.14,LOGÍSTICA
+336,João Costa,6326.89,PRODUÇÃO
+337,MARIANA RODRIGUES,3002.85,TI
+338,João Silva,8924.4,
+339,Felipe Nascimento,2810.43,RH
+340,LUCAS OLIVEIRA,13751.69,
+341,Felipe Silva,5183.28,Marketing
+342,Mariana Nascimento,9790.73,Produção
+343,Mariana Costa,4556.19,Financeiro
+344,ANA SOUZA,7713.18,Financeiro
+345,Ana Rodrigues,2288.61,Jurídico
+346,Amanda Lima,2260.99,Financeiro
+347,Fernanda Santos,6331.47,
+348,Amanda Almeida,7073.67,TI
+349,Fernanda Nascimento,2028.48,Jurídico
+350,Ana Santos,4770.62,Jurídico
+351,,-12096.68,Financeiro
+352,,9692.99,LOGÍSTICA
+353,rafael silva,14160.5,MARKETING
+354,MARIANA NASCIMENTO,8836.49,Marketing
+355,Rafael Oliveira,14871.22,
+356,Mariana Pereira,,TI
+357,Amanda Costa,,TI
+358,PAULA ALMEIDA,1705.22,VENDAS
+359,Lucas Costa,9405.26,MARKETING
+360,João Souza,5036.0,RH
+361,Lucas Pereira,1620.6,TI
+362,FELIPE SILVA,6121.21,MARKETING
+363,Paula Pereira,12214.23,RH
+364,Paula Santos,8690.23,Jurídico
+365,Mariana Silva,9544.25,JURÍDICO
+366,Felipe Santos,4902.92,VENDAS
+367,,1547.42,TI
+368,Lucas Almeida,9262.05,RH
+369,,3532.98,Produção
+370,Paula Pereira,9936.88,RH
+371,Carlos Silva,2740.03,marketing
+372,carlos souza,1539.55,Marketing
+373,Mariana Souza,10409.25,rh
+374,Carlos Costa,5098.97,Marketing
+375,Ana Pereira,6501.99,
+376,,2786.55,Logística
+377,Rafael Santos,12923.3,Jurídico
+378,CARLOS SILVA,11504.7,jurídico
+379,,14587.9,Jurídico
+380,Felipe Almeida,4610.87,Logística
+381,,10620.68,Financeiro
+382,Thiago Santos,2298.41,marketing
+383,Felipe Costa,-12875.34,Produção
+384,Lucas Souza,9377.48,PRODUÇÃO
+385,Julia Rodrigues,8367.91,Produção
+386,Rafael Silva,11897.37,PRODUÇÃO
+387,Lucas Almeida,2895.78,Financeiro
+388,Felipe Almeida,11142.07,Produção
+389,Thiago Rodrigues,2512.33,RH
+390,mariana silva,4685.31,Vendas
+391,ANA ALMEIDA,7875.19,produção
+392,Amanda Nascimento,-11136.33,PRODUÇÃO
+393,Julia Rodrigues,,
+394,Amanda Costa,12427.35,LOGÍSTICA
+395,Julia Silva,3699.84,LOGÍSTICA
+396,Julia Pereira,10845.24,Financeiro
+397,Ana Pereira,14560.49,Jurídico
+398,Julia Oliveira,9283.11,RH
+399,Ana Santos,13641.69,RH
+400,Julia Costa,8618.85,LOGÍSTICA
+401,Thiago Nascimento,6848.63,Logística
+402,JOÃO PEREIRA,6179.27,Financeiro
+403,Rafael Silva,13994.29,Financeiro
+404,Paula Pereira,14815.58,TI
+405,João Souza,9254.09,RH
+406,Rafael Souza,11804.52,TI
+407,FELIPE SANTOS,7656.11,
+408,joão santos,11792.73,Produção
+409,Paula Oliveira,11499.81,TI
+410,Amanda Rodrigues,12040.02,rh
+411,Ana Nascimento,1877.85,marketing
+412,Amanda Pereira,4627.11,financeiro
+413,Amanda Almeida,11158.23,Vendas
+414,Felipe Almeida,3217.43,Vendas
+415,Felipe Silva,4203.19,Marketing
+416,Julia Silva,4595.09,TI
+417,fernanda rodrigues,2124.31,rh
+418,,12586.49,Jurídico
+419,Felipe Souza,2350.36,TI
+420,Felipe Rodrigues,2311.7,produção
+421,,4840.19,MARKETING
+422,carlos costa,5031.6,Produção
+423,Paula Santos,4721.41,
+424,Amanda Nascimento,13817.31,TI
+425,Lucas Nascimento,11729.94,Logística
+426,mariana souza,4092.38,RH
+427,Carlos Costa,7763.71,Logística
+428,Julia Costa,2688.09,TI
+429,Amanda Almeida,-8505.99,TI
+430,joão silva,10680.33,PRODUÇÃO
+431,Rafael Nascimento,,financeiro
+432,,10949.94,Logística
+433,Julia Oliveira,12934.63,MARKETING
+434,thiago almeida,11508.02,PRODUÇÃO
+435,Rafael Souza,2744.16,Logística
+436,fernanda pereira,11249.15,Jurídico
+437,JULIA OLIVEIRA,12755.51,TI
+438,Ana Almeida,4981.38,VENDAS
+439,LUCAS NASCIMENTO,4654.68,Vendas
+440,FERNANDA OLIVEIRA,13726.38,Produção
+441,,3270.66,financeiro
+442,Rafael Oliveira,14724.43,vendas
+443,ana silva,12551.5,Marketing
+444,Fernanda Nascimento,5165.54,TI
+445,Lucas Rodrigues,1513.67,marketing
+446,MARIANA SOUZA,8018.47,
+447,THIAGO ALMEIDA,12299.12,TI
+448,Amanda Rodrigues,2761.95,Marketing
+449,,14103.66,TI
+450,Felipe Nascimento,5413.02,Financeiro
+451,julia souza,2825.42,produção
+452,Fernanda Costa,5601.52,TI
+453,JOÃO PEREIRA,13265.08,MARKETING
+454,Amanda Pereira,1705.09,jurídico
+455,Julia Rodrigues,1502.03,Vendas
+456,MARIANA SOUZA,2173.44,Vendas
+457,Mariana Rodrigues,9795.44,Marketing
+458,Lucas Nascimento,3098.4,Logística
+459,FELIPE LIMA,5495.78,
+460,Paula Lima,7395.11,Jurídico
+461,Fernanda Lima,13802.51,
+462,Felipe Silva,11252.53,Marketing
+463,Rafael Lima,9407.22,VENDAS
+464,,4548.75,
+465,CARLOS COSTA,1646.43,Produção
+466,Felipe Oliveira,6136.13,jurídico
+467,mariana santos,1658.07,TI
+468,Fernanda Silva,4340.33,Produção
+469,FELIPE RODRIGUES,,Produção
+470,thiago lima,3909.47,RH
+471,João Nascimento,14101.53,Marketing
+472,Rafael Nascimento,1676.71,Vendas
+473,Lucas Silva,14833.43,Logística
+474,Mariana Rodrigues,4346.24,MARKETING
+475,Rafael Rodrigues,4103.73,TI
+476,Paula Santos,7100.63,RH
+477,Rafael Lima,9266.09,FINANCEIRO
+478,Rafael Costa,8488.48,TI
+479,Thiago Nascimento,,PRODUÇÃO
+480,amanda souza,1603.45,Jurídico
+481,THIAGO SOUZA,1987.67,PRODUÇÃO
+482,,10166.54,Jurídico
+483,JOÃO NASCIMENTO,10592.69,
+484,amanda almeida,11079.69,Logística
+485,Carlos Silva,13885.78,TI
+486,Amanda Rodrigues,7355.55,Financeiro
+487,Carlos Almeida,3426.86,logística
+488,RAFAEL OLIVEIRA,11022.21,Financeiro
+489,Felipe Almeida,10444.95,RH
+490,LUCAS COSTA,11343.54,MARKETING
+491,FELIPE RODRIGUES,6550.54,TI
+492,Felipe Silva,11797.82,LOGÍSTICA
+493,,9061.32,financeiro
+494,Carlos Lima,4330.23,
+495,Paula Rodrigues,6138.78,RH
+496,Rafael Santos,10146.37,rh
+497,thiago costa,4353.99,marketing
+498,lucas oliveira,11747.84,
+499,JULIA SANTOS,5972.03,Vendas
+500,Thiago Costa,2533.94,Logística
+501,LUCAS ALMEIDA,13717.75,RH
+502,RAFAEL SANTOS,13641.73,FINANCEIRO
+503,Paula Lima,6182.76,TI
+504,Lucas Santos,10630.04,marketing
+505,Paula Rodrigues,4755.22,JURÍDICO
+506,Fernanda Santos,1910.05,vendas
+507,João Souza,5420.85,RH
+508,Julia Nascimento,14219.25,Jurídico
+509,Lucas Costa,7065.29,FINANCEIRO
+510,,14412.19,Financeiro
+511,Ana Santos,,Produção
+512,RAFAEL ALMEIDA,3070.12,Vendas
+513,,14131.75,Logística
+514,Ana Lima,10995.23,
+515,Julia Souza,13035.05,FINANCEIRO
+516,MARIANA NASCIMENTO,2683.89,RH
+517,Julia Costa,8323.9,
+518,carlos pereira,10706.63,
+519,FELIPE SILVA,6852.94,
+520,THIAGO SILVA,14278.88,MARKETING
+521,Amanda Nascimento,12002.61,TI
+522,ANA PEREIRA,14822.83,Logística
+523,Paula Santos,14621.73,rh
+524,AMANDA PEREIRA,10924.15,RH
+525,LUCAS LIMA,4447.84,ti
+526,fernanda pereira,6588.43,marketing
+527,João Pereira,4486.9,Produção
+528,Julia Souza,9259.48,RH
+529,Lucas Costa,13568.32,Jurídico
+530,AMANDA PEREIRA,4616.86,Logística
+531,,12684.62,TI
+532,Felipe Costa,14992.36,TI
+533,Rafael Oliveira,12806.42,Produção
+534,Paula Costa,6494.21,RH
+535,felipe lima,1809.11,LOGÍSTICA
+536,Mariana Silva,13758.7,rh
+537,Fernanda Rodrigues,13274.08,
+538,Ana Rodrigues,-6848.95,financeiro
+539,Lucas Rodrigues,4486.65,FINANCEIRO
+540,paula silva,4931.35,Produção
+541,Rafael Souza,9878.49,logística
+542,,7601.38,RH
+543,Thiago Santos,10073.17,Logística
+544,ANA LIMA,9156.01,Vendas
+545,Julia Pereira,7137.97,jurídico
+546,Lucas Costa,9204.15,
+547,FERNANDA RODRIGUES,8971.17,
+548,,6447.94,VENDAS
+549,Fernanda Nascimento,11243.41,RH
+550,felipe almeida,13932.15,TI
+551,,10752.95,
+552,,9230.14,RH
+553,,,Vendas
+554,,4282.02,RH
+555,Felipe Rodrigues,-6358.05,Financeiro
+556,Rafael Pereira,8581.29,Produção
+557,Amanda Almeida,9351.51,PRODUÇÃO
+558,Paula Santos,5008.57,produção
+559,Mariana Rodrigues,3960.45,
+560,Fernanda Rodrigues,-3576.58,Financeiro
+561,JULIA COSTA,3080.84,financeiro
+562,João Almeida,5885.35,Marketing
+563,fernanda pereira,6511.44,Vendas
+564,Julia Costa,11901.62,Logística
+565,PAULA SILVA,4910.35,
+566,Carlos Lima,4079.79,
+567,Paula Santos,5221.5,
+568,Amanda Nascimento,3293.2,RH
+569,Julia Pereira,12585.71,RH
+570,Lucas Oliveira,5531.62,ti
+571,Fernanda Pereira,13037.74,produção
+572,Rafael Rodrigues,4874.1,JURÍDICO
+573,,13112.07,Produção
+574,Mariana Rodrigues,14427.33,logística
+575,Ana Pereira,4095.93,RH
+576,Amanda Souza,12460.79,marketing
+577,Felipe Oliveira,,Financeiro
+578,Thiago Souza,6129.18,RH
+579,FERNANDA NASCIMENTO,10368.62,Produção
+580,MARIANA ALMEIDA,14885.42,marketing
+581,Lucas Souza,7160.53,Jurídico
+582,Amanda Santos,14285.67,Financeiro
+583,Ana Nascimento,12693.85,Financeiro
+584,Paula Costa,5899.6,produção
+585,LUCAS LIMA,12089.7,ti
+586,Amanda Nascimento,8667.27,jurídico
+587,,6608.87,Financeiro
+588,Paula Costa,7632.43,TI
+589,Rafael Almeida,4763.4,
+590,Felipe Oliveira,3097.82,TI
+591,paula oliveira,10207.44,Logística
+592,joão lima,2864.35,Marketing
+593,Mariana Almeida,4907.29,TI
+594,Amanda Almeida,-7360.34,RH
+595,Lucas Oliveira,3915.91,Produção
+596,Paula Silva,12927.48,VENDAS
+597,AMANDA COSTA,12259.95,ti
+598,CARLOS ALMEIDA,14884.29,JURÍDICO
+599,Thiago Santos,13185.69,Marketing
+600,mariana rodrigues,7996.67,ti
+601,Mariana Souza,5393.47,JURÍDICO
+602,Amanda Silva,7779.55,
+603,,13881.97,Vendas
+604,Thiago Almeida,5422.79,Marketing
+605,Fernanda Souza,5878.87,VENDAS
+606,Fernanda Santos,3020.99,VENDAS
+607,Thiago Oliveira,,Jurídico
+608,,5300.76,Marketing
+609,Paula Rodrigues,7721.64,Jurídico
+610,Rafael Rodrigues,2447.26,MARKETING
+611,Thiago Silva,5135.23,Logística
+612,THIAGO SANTOS,12229.68,Marketing
+613,PAULA RODRIGUES,,RH
+614,Thiago Santos,6861.22,RH
+615,Fernanda Souza,8659.81,RH
+616,paula lima,6341.94,RH
+617,RAFAEL OLIVEIRA,7749.9,
+618,rafael rodrigues,2479.1,Jurídico
+619,ana lima,10101.27,LOGÍSTICA
+620,Felipe Souza,5637.28,RH
+621,Ana Lima,2110.46,RH
+622,rafael rodrigues,12907.37,RH
+623,ANA SANTOS,4905.82,Vendas
+624,Lucas Oliveira,,MARKETING
+625,felipe costa,,
+626,Felipe Santos,3152.35,RH
+627,joão santos,,PRODUÇÃO
+628,Lucas Nascimento,,TI
+629,Amanda Oliveira,2722.35,
+630,Thiago Rodrigues,5721.33,Logística
+631,Felipe Silva,4490.5,Jurídico
+632,Ana Silva,13475.38,PRODUÇÃO
+633,LUCAS LIMA,14863.47,Marketing
+634,Fernanda Oliveira,2200.92,Financeiro
+635,Felipe Souza,3318.4,Marketing
+636,paula oliveira,5597.36,Jurídico
+637,Mariana Silva,10400.96,
+638,João Souza,12102.8,VENDAS
+639,Amanda Costa,13438.07,Financeiro
+640,LUCAS ALMEIDA,10544.36,vendas
+641,Paula Souza,12529.1,MARKETING
+642,João Nascimento,8875.03,TI
+643,Felipe Santos,10375.91,VENDAS
+644,ANA SOUZA,8970.7,RH
+645,JULIA RODRIGUES,13982.05,TI
+646,Lucas Santos,7798.18,VENDAS
+647,Rafael Costa,10354.03,Logística
+648,Lucas Rodrigues,9052.61,PRODUÇÃO
+649,RAFAEL RODRIGUES,,RH
+650,Carlos Pereira,13502.14,Financeiro
+651,Paula Oliveira,4611.86,Financeiro
+652,Felipe Lima,11450.25,TI
+653,carlos costa,,RH
+654,,5130.49,Jurídico
+655,Fernanda Nascimento,3562.23,jurídico
+656,João Oliveira,1900.11,Marketing
+657,fernanda lima,,logística
+658,,3785.87,Logística
+659,Paula Souza,2580.86,TI
+660,Fernanda Almeida,5053.43,
+661,,6528.24,TI
+662,Mariana Lima,7061.01,Vendas
+663,MARIANA PEREIRA,1571.91,Jurídico
+664,,6796.31,Marketing
+665,ANA OLIVEIRA,8451.38,jurídico
+666,,7886.7,Logística
+667,joão oliveira,11893.87,RH
+668,RAFAEL SILVA,2466.96,RH
+669,Julia Souza,7709.76,FINANCEIRO
+670,Rafael Santos,3271.77,Jurídico
+671,,2059.2,Financeiro
+672,carlos lima,3195.73,TI
+673,JOÃO RODRIGUES,2709.84,JURÍDICO
+674,Fernanda Souza,8378.16,Logística
+675,Julia Pereira,9146.55,RH
+676,ana lima,4087.69,jurídico
+677,João Almeida,3720.93,Logística
+678,Lucas Souza,10392.73,Financeiro
+679,MARIANA PEREIRA,10765.95,TI
+680,,14299.89,Financeiro
+681,Lucas Pereira,1686.13,Marketing
+682,Fernanda Souza,9087.68,marketing
+683,JULIA ALMEIDA,,
+684,Mariana Oliveira,10555.49,Financeiro
+685,Paula Rodrigues,14097.33,Produção
+686,FELIPE SANTOS,5119.66,Financeiro
+687,Amanda Pereira,14978.49,TI
+688,Ana Nascimento,14430.83,vendas
+689,mariana silva,7504.73,Logística
+690,,9872.5,
+691,Fernanda Pereira,9729.08,
+692,JOÃO PEREIRA,,marketing
+693,Lucas Almeida,1535.59,RH
+694,JOÃO COSTA,6932.2,ti
+695,Paula Almeida,,Marketing
+696,João Lima,6568.23,
+697,felipe nascimento,14075.09,Marketing
+698,Amanda Silva,14419.85,
+699,Felipe Santos,13686.18,Jurídico
+700,Paula Souza,4817.31,Jurídico
+701,lucas nascimento,2521.73,TI
+702,CARLOS ALMEIDA,11246.52,logística
+703,Rafael Rodrigues,13196.61,TI
+704,THIAGO COSTA,9499.66,TI
+705,Thiago Pereira,2746.11,
+706,,6990.88,ti
+707,amanda santos,2086.36,TI
+708,,4955.02,Logística
+709,Mariana Nascimento,10310.51,rh
+710,Carlos Souza,7888.83,
+711,Julia Nascimento,14569.67,TI
+712,João Nascimento,10092.43,Financeiro
+713,Thiago Costa,6191.12,Logística
+714,JOÃO PEREIRA,6727.07,Jurídico
+715,Julia Rodrigues,8237.65,Vendas
+716,Carlos Silva,9761.77,TI
+717,Lucas Oliveira,,LOGÍSTICA
+718,Felipe Almeida,4412.09,Produção
+719,Mariana Lima,14073.38,Produção
+720,ANA NASCIMENTO,1624.57,produção
+721,,11209.66,Financeiro
+722,julia rodrigues,8974.54,TI
+723,Lucas Costa,4099.36,MARKETING
+724,mariana nascimento,4994.8,TI
+725,Paula Lima,2287.29,FINANCEIRO
+726,MARIANA COSTA,13469.17,RH
+727,Felipe Costa,6692.91,TI
+728,JOÃO PEREIRA,,MARKETING
+729,,6243.65,RH
+730,fernanda silva,7073.54,TI
+731,Mariana Rodrigues,6133.29,RH
+732,THIAGO PEREIRA,10947.74,Financeiro
+733,Paula Lima,9366.59,VENDAS
+734,joão nascimento,10005.5,TI
+735,Fernanda Costa,8464.75,RH
+736,Rafael Oliveira,14035.38,Logística
+737,Lucas Pereira,9438.96,RH
+738,João Costa,2308.85,RH
+739,Paula Silva,,TI
+740,Mariana Almeida,2987.05,Produção
+741,Fernanda Oliveira,13209.97,TI
+742,Amanda Nascimento,7921.75,VENDAS
+743,Paula Souza,5984.44,vendas
+744,FERNANDA SILVA,3137.29,jurídico
+745,CARLOS NASCIMENTO,4147.68,Marketing
+746,João Silva,12688.54,Produção
+747,Lucas Silva,9200.14,Logística
+748,Fernanda Rodrigues,4191.03,RH
+749,Mariana Lima,7266.58,LOGÍSTICA
+750,Rafael Pereira,12540.37,
+751,THIAGO OLIVEIRA,6740.29,RH
+752,LUCAS RODRIGUES,13993.93,Jurídico
+753,ana souza,12523.8,Marketing
+754,CARLOS COSTA,5900.32,VENDAS
+755,João Nascimento,14986.92,
+756,Julia Oliveira,12585.08,RH
+757,FELIPE NASCIMENTO,1862.41,Logística
+758,Fernanda Santos,10728.19,marketing
+759,MARIANA SOUZA,12900.38,Logística
+760,Felipe Souza,6777.08,Financeiro
+761,João Costa,12617.3,Financeiro
+762,JOÃO SANTOS,4283.59,Logística
+763,carlos pereira,,
+764,Carlos Costa,8799.11,Vendas
+765,Lucas Rodrigues,11052.51,TI
+766,joão costa,,Jurídico
+767,Carlos Lima,5952.55,Logística
+768,Paula Silva,10390.75,jurídico
+769,Lucas Silva,6595.77,
+770,Paula Costa,11578.17,Vendas
+771,Paula Silva,5050.59,TI
+772,Julia Pereira,-8372.13,JURÍDICO
+773,fernanda pereira,11857.05,Vendas
+774,paula silva,10277.72,RH
+775,Carlos Oliveira,1683.09,logística
+776,Ana Nascimento,-8886.9,JURÍDICO
+777,Ana Silva,6447.84,Jurídico
+778,Mariana Almeida,5437.55,ti
+779,THIAGO ALMEIDA,9246.12,logística
+780,LUCAS LIMA,14803.56,Logística
+781,Ana Souza,8174.63,
+782,Ana Oliveira,2871.41,
+783,,2352.23,
+784,Julia Nascimento,4847.54,Vendas
+785,,7759.43,
+786,Ana Nascimento,,Produção
+787,felipe lima,13850.84,VENDAS
+788,Rafael Oliveira,10615.82,Jurídico
+789,carlos santos,3894.87,Logística
+790,Thiago Oliveira,11324.67,Jurídico
+791,Felipe Oliveira,6254.96,Marketing
+792,Mariana Pereira,7882.01,Marketing
+793,Paula Oliveira,8757.32,Financeiro
+794,,11639.27,RH
+795,Mariana Nascimento,9041.56,Logística
+796,Rafael Oliveira,5827.13,RH
+797,Thiago Rodrigues,5061.09,VENDAS
+798,João Souza,2055.16,FINANCEIRO
+799,carlos rodrigues,5529.03,TI
+800,Thiago Rodrigues,9025.06,Produção
+801,,14309.22,rh
+802,julia costa,13758.06,
+803,,5246.59,
+804,THIAGO ALMEIDA,5594.41,TI
+805,FELIPE RODRIGUES,14013.5,Marketing
+806,Rafael Pereira,14318.04,logística
+807,Thiago Pereira,13589.73,RH
+808,Thiago Almeida,3026.0,Vendas
+809,Lucas Silva,10970.17,Vendas
+810,CARLOS COSTA,,financeiro
+811,Julia Santos,8797.33,Marketing
+812,Lucas Souza,9717.08,
+813,Julia Silva,10721.03,RH
+814,julia almeida,13715.94,TI
+815,mariana almeida,11300.93,VENDAS
+816,João Pereira,11446.93,Financeiro
+817,Felipe Costa,10161.72,JURÍDICO
+818,João Santos,5363.98,TI
+819,,5914.91,FINANCEIRO
+820,,2690.94,
+821,Fernanda Lima,13870.97,Jurídico
+822,Ana Souza,11639.96,Logística
+823,Julia Pereira,7644.71,Produção
+824,João Oliveira,3837.86,Financeiro
+825,Thiago Santos,-14869.5,TI
+826,Paula Almeida,9816.81,Logística
+827,RAFAEL NASCIMENTO,2525.72,VENDAS
+828,,11054.45,
+829,Ana Oliveira,4430.85,TI
+830,LUCAS PEREIRA,7272.99,JURÍDICO
+831,Julia Costa,2021.1,Vendas
+832,carlos santos,10923.79,Produção
+833,Carlos Costa,7963.77,RH
+834,Mariana Lima,3287.5,Marketing
+835,Paula Lima,3623.37,logística
+836,Julia Santos,8228.84,jurídico
+837,CARLOS PEREIRA,14429.06,logística
+838,,14163.26,Logística
+839,rafael lima,13036.08,Marketing
+840,Amanda Costa,4677.35,Vendas
+841,João Silva,2275.46,ti
+842,Felipe Rodrigues,5688.47,JURÍDICO
+843,Ana Costa,7239.87,Vendas
+844,Mariana Rodrigues,14035.21,MARKETING
+845,felipe pereira,3665.71,
+846,Amanda Oliveira,2219.33,FINANCEIRO
+847,Mariana Silva,11560.4,VENDAS
+848,ana silva,11370.24,vendas
+849,,11956.17,Vendas
+850,Ana Silva,14596.56,marketing
+851,Rafael Santos,9842.18,Vendas
+852,JULIA NASCIMENTO,5576.56,Vendas
+853,Ana Silva,14626.27,TI
+854,Fernanda Souza,14352.09,
+855,JULIA ALMEIDA,10933.46,Jurídico
+856,Carlos Nascimento,2562.93,Marketing
+857,FELIPE PEREIRA,2478.34,rh
+858,Felipe Nascimento,11091.99,RH
+859,AMANDA ALMEIDA,3882.98,JURÍDICO
+860,Mariana Oliveira,9279.72,rh
+861,PAULA OLIVEIRA,-10685.33,RH
+862,FELIPE NASCIMENTO,14309.93,TI
+863,João Almeida,2352.75,Vendas
+864,Ana Nascimento,11628.44,RH
+865,LUCAS COSTA,9369.34,FINANCEIRO
+866,Thiago Silva,5249.64,Vendas
+867,Lucas Oliveira,3391.14,FINANCEIRO
+868,Paula Lima,,FINANCEIRO
+869,Thiago Pereira,12845.67,rh
+870,JULIA COSTA,3928.98,Jurídico
+871,Lucas Lima,5949.65,Vendas
+872,thiago almeida,6244.08,RH
+873,,5310.64,TI
+874,Mariana Rodrigues,5238.32,TI
+875,Fernanda Nascimento,2431.22,TI
+876,Rafael Souza,3454.74,Produção
+877,MARIANA SILVA,3956.16,Vendas
+878,Ana Pereira,7898.11,Produção
+879,Paula Oliveira,8169.53,RH
+880,Ana Silva,8929.2,Produção
+881,Mariana Costa,,rh
+882,,2900.82,
+883,Amanda Souza,6096.45,RH
+884,,12281.46,Jurídico
+885,,6249.73,Jurídico
+886,Felipe Santos,12639.4,Vendas
+887,Mariana Nascimento,3250.75,
+888,Thiago Souza,6435.99,Vendas
+889,Rafael Pereira,10430.03,Financeiro
+890,,11249.13,PRODUÇÃO
+891,carlos pereira,11713.0,Marketing
+892,Felipe Souza,5640.2,RH
+893,Rafael Oliveira,5703.64,
+894,FELIPE SOUZA,10561.19,MARKETING
+895,,12241.55,RH
+896,João Santos,9142.58,PRODUÇÃO
+897,julia costa,12826.43,Financeiro
+898,ana santos,10598.57,FINANCEIRO
+899,PAULA SANTOS,7018.48,
+900,Carlos Oliveira,14961.08,Jurídico
+901,THIAGO ALMEIDA,10440.13,Marketing
+902,carlos oliveira,9054.25,RH
+903,Paula Silva,2253.99,Marketing
+904,Paula Silva,2488.71,
+905,João Rodrigues,14138.98,FINANCEIRO
+906,fernanda costa,6231.68,Produção
+907,Paula Santos,3208.84,financeiro
+908,João Nascimento,6229.0,Logística
+909,mariana rodrigues,11294.18,Logística
+910,Mariana Lima,13195.14,TI
+911,João Nascimento,3239.38,RH
+912,Julia Santos,6731.96,TI
+913,THIAGO OLIVEIRA,5337.33,
+914,carlos pereira,11720.26,
+915,felipe santos,7433.49,Logística
+916,joão almeida,9391.34,produção
+917,João Oliveira,1553.49,Produção
+918,rafael oliveira,4490.24,TI
+919,Ana Nascimento,6826.13,Jurídico
+920,Ana Rodrigues,8094.1,JURÍDICO
+921,fernanda santos,4491.33,Financeiro
+922,João Oliveira,2175.03,marketing
+923,Julia Santos,10124.09,Produção
+924,João Oliveira,3056.12,VENDAS
+925,Lucas Costa,8149.23,Jurídico
+926,Fernanda Pereira,9666.63,Vendas
+927,Rafael Nascimento,5295.15,rh
+928,Fernanda Lima,2499.88,Marketing
+929,,13051.04,TI
+930,,6627.74,TI
+931,rafael rodrigues,,Marketing
+932,Rafael Pereira,9653.8,TI
+933,Lucas Lima,7538.48,Vendas
+934,,3409.38,marketing
+935,,10403.02,LOGÍSTICA
+936,Ana Almeida,13210.81,vendas
+937,,11154.38,ti
+938,Lucas Almeida,12969.26,Jurídico
+939,,2975.42,MARKETING
+940,Felipe Rodrigues,7607.04,Logística
+941,FERNANDA LIMA,2445.26,Financeiro
+942,Carlos Costa,2713.93,ti
+943,Fernanda Rodrigues,13240.25,Jurídico
+944,LUCAS LIMA,7383.57,vendas
+945,AMANDA OLIVEIRA,8804.64,Produção
+946,João Rodrigues,14773.09,TI
+947,Lucas Almeida,1973.97,Logística
+948,Mariana Silva,12149.71,Vendas
+949,Amanda Rodrigues,14230.1,logística
+950,Thiago Lima,9523.45,
+951,JULIA COSTA,2949.6,Financeiro
+952,joão silva,4591.63,TI
+953,Amanda Pereira,12700.77,Marketing
+954,RAFAEL OLIVEIRA,9088.55,FINANCEIRO
+955,PAULA RODRIGUES,14183.55,Produção
+956,Mariana Pereira,4060.96,Vendas
+957,RAFAEL LIMA,2023.91,Produção
+958,Mariana Souza,5319.39,
+959,Julia Almeida,7731.86,Jurídico
+960,,14073.76,TI
+961,julia souza,2874.62,Jurídico
+962,Lucas Almeida,8616.51,TI
+963,Mariana Oliveira,14704.46,Financeiro
+964,Thiago Silva,3410.78,RH
+965,Mariana Rodrigues,6006.03,RH
+966,Thiago Lima,4120.9,RH
+967,Carlos Lima,14160.19,Vendas
+968,Julia Costa,9876.83,Logística
+969,ANA NASCIMENTO,14304.52,Jurídico
+970,Rafael Nascimento,-2576.8,Vendas
+971,Carlos Santos,5688.7,TI
+972,Julia Nascimento,12206.64,jurídico
+973,Lucas Almeida,10021.86,Marketing
+974,Felipe Nascimento,6501.71,rh
+975,carlos silva,-2591.66,Logística
+976,THIAGO OLIVEIRA,13740.29,TI
+977,Paula Pereira,14165.85,TI
+978,,4665.87,
+979,Ana Rodrigues,10125.15,Logística
+980,Ana Lima,3471.47,Financeiro
+981,joão nascimento,10871.07,financeiro
+982,Amanda Pereira,,
+983,PAULA LIMA,3298.37,RH
+984,Amanda Rodrigues,9020.82,RH
+985,carlos costa,11883.99,Vendas
+986,THIAGO PEREIRA,6989.55,Financeiro
+987,PAULA LIMA,7337.12,
+988,RAFAEL OLIVEIRA,14953.41,Marketing
+989,Mariana Santos,6574.88,Produção
+990,julia almeida,4628.05,Logística
+991,Felipe Pereira,7575.0,Logística
+992,,7193.1,Financeiro
+993,CARLOS ALMEIDA,10674.66,
+994,Rafael Rodrigues,1720.74,Logística
+995,JULIA LIMA,14720.85,Vendas
+996,Thiago Oliveira,-11190.22,
+997,Fernanda Costa,,Jurídico
+998,,3615.97,Vendas
+999,Mariana Rodrigues,,logística
+1000,Carlos Silva,5600.33,TI
+1001,THIAGO SANTOS,1528.19,vendas
+1002,Rafael Almeida,3502.46,Jurídico
+1003,João Oliveira,4030.83,RH
+1004,carlos almeida,10024.31,Marketing
+1005,LUCAS NASCIMENTO,4905.72,
+1006,lucas rodrigues,8691.85,rh
+1007,AMANDA SILVA,4159.36,RH
+1008,julia santos,13325.1,Marketing
+1009,fernanda almeida,11348.71,Financeiro
+1010,Rafael Oliveira,10441.26,Financeiro
+1011,,14917.4,MARKETING
+1012,FERNANDA COSTA,13687.95,PRODUÇÃO
+1013,RAFAEL RODRIGUES,9964.67,Marketing
+1014,,7690.71,Logística
+1015,Lucas Costa,11426.81,JURÍDICO
+1016,João Nascimento,8980.03,Marketing
+1017,Mariana Santos,11581.04,
+1018,Thiago Santos,2073.46,Jurídico
+1019,AMANDA PEREIRA,14382.86,RH
+1020,Mariana Lima,4328.16,Logística
+1021,,9196.37,LOGÍSTICA
+1022,amanda santos,8004.36,Marketing
+1023,Rafael Souza,9742.01,Financeiro
+1024,João Rodrigues,14569.13,rh
+1025,ANA LIMA,12391.68,Jurídico
+1026,thiago oliveira,8599.15,
+1027,Felipe Nascimento,10248.83,
+1028,Felipe Souza,7264.94,Produção
+1029,Mariana Nascimento,2314.08,
+1030,MARIANA PEREIRA,-11994.25,Logística
+1031,,10225.6,Financeiro
+1032,JULIA ALMEIDA,3006.64,Jurídico
+1033,Amanda Costa,1553.13,Marketing
+1034,FERNANDA PEREIRA,12592.19,FINANCEIRO
+1035,,10627.96,Vendas
+1036,LUCAS RODRIGUES,10061.56,Financeiro
+1037,Lucas Nascimento,14299.15,Financeiro
+1038,RAFAEL COSTA,9410.54,RH
+1039,Thiago Silva,1509.12,Marketing
+1040,Amanda Souza,11766.67,Vendas
+1041,,8277.62,MARKETING
+1042,MARIANA OLIVEIRA,12985.19,MARKETING
+1043,Rafael Pereira,6160.49,
+1044,Rafael Pereira,4492.06,
+1045,,,TI
+1046,FELIPE SILVA,12670.97,
+1047,Paula Rodrigues,6197.09,rh
+1048,João Santos,3107.24,RH
+1049,,12585.74,Logística
+1050,Ana Rodrigues,2933.19,RH
+1051,LUCAS SANTOS,6636.77,TI
+1052,Lucas Souza,2546.31,vendas
+1053,FERNANDA COSTA,11872.71,Produção
+1054,MARIANA COSTA,7920.4,Jurídico
+1055,Lucas Oliveira,12799.31,financeiro
+1056,,2020.45,RH
+1057,Julia Nascimento,6854.58,marketing
+1058,Rafael Silva,12940.79,Jurídico
+1059,,14886.0,TI
+1060,Fernanda Silva,2116.38,
+1061,CARLOS PEREIRA,6373.13,RH
+1062,,6267.35,TI
+1063,Thiago Almeida,14542.07,produção
+1064,carlos oliveira,10369.81,JURÍDICO
+1065,mariana santos,12971.48,TI
+1066,ana costa,14014.93,RH
+1067,Fernanda Pereira,13714.22,Marketing
+1068,Thiago Pereira,7606.29,
+1069,Fernanda Silva,13467.27,TI
+1070,Ana Souza,14994.11,jurídico
+1071,,8015.82,TI
+1072,Lucas Pereira,12259.61,TI
+1073,FELIPE SILVA,-12515.09,Jurídico
+1074,João Rodrigues,3420.49,FINANCEIRO
+1075,Fernanda Costa,6507.31,MARKETING
+1076,Mariana Nascimento,13859.12,Financeiro
+1077,ana oliveira,9536.46,jurídico
+1078,Julia Nascimento,7960.26,RH
+1079,,,Logística
+1080,Lucas Lima,4075.82,Marketing
+1081,thiago pereira,8330.28,
+1082,Mariana Santos,14019.11,produção
+1083,Lucas Santos,14949.34,MARKETING
+1084,Lucas Costa,6713.7,Produção
+1085,Lucas Pereira,3694.98,Vendas
+1086,Rafael Pereira,14569.33,vendas
+1087,Amanda Almeida,11782.62,rh
+1088,Fernanda Lima,2824.88,Marketing
+1089,carlos santos,12527.65,VENDAS
+1090,LUCAS OLIVEIRA,3712.84,TI
+1091,Amanda Santos,10491.41,TI
+1092,Paula Costa,8190.53,Marketing
+1093,Rafael Lima,11795.3,TI
+1094,Felipe Almeida,6309.84,Jurídico
+1095,Felipe Silva,12809.88,LOGÍSTICA
+1096,Paula Nascimento,9688.48,TI
+1097,felipe nascimento,,Vendas
+1098,Paula Costa,9984.5,Financeiro
+1099,,14730.0,Logística
+1100,Rafael Oliveira,8690.56,RH
+1101,Thiago Lima,10470.54,RH
+1102,Fernanda Lima,2675.52,marketing
+1103,Rafael Costa,1669.97,PRODUÇÃO
+1104,CARLOS NASCIMENTO,10134.11,jurídico
+1105,,7287.61,Jurídico
+1106,Paula Oliveira,11457.82,Vendas
+1107,Julia Santos,14328.95,Logística
+1108,rafael lima,4362.03,Vendas
+1109,Felipe Souza,2348.33,Marketing
+1110,Julia Pereira,13565.5,Marketing
+1111,ANA SOUZA,13243.73,RH
+1112,LUCAS SOUZA,10188.65,Logística
+1113,Fernanda Lima,10408.42,Jurídico
+1114,amanda lima,2482.62,Vendas
+1115,PAULA NASCIMENTO,11435.38,jurídico
+1116,João Silva,11358.44,rh
+1117,JOÃO SANTOS,14435.84,Vendas
+1118,Mariana Almeida,14835.44,
+1119,Paula Souza,,Logística
+1120,Lucas Lima,12058.13,RH
+1121,Carlos Lima,9431.34,marketing
+1122,Rafael Rodrigues,7076.04,Marketing
+1123,Paula Nascimento,2179.47,Jurídico
+1124,felipe nascimento,1751.69,VENDAS
+1125,THIAGO ALMEIDA,9968.63,Jurídico
+1126,Carlos Almeida,14394.87,FINANCEIRO
+1127,Mariana Oliveira,11618.58,Financeiro
+1128,THIAGO ALMEIDA,6769.0,Vendas
+1129,Ana Costa,2160.63,Financeiro
+1130,,-4863.0,Jurídico
+1131,,11670.3,
+1132,Thiago Souza,11623.64,
+1133,julia almeida,5847.31,Jurídico
+1134,JOÃO NASCIMENTO,7214.64,Financeiro
+1135,Rafael Lima,4147.41,Vendas
+1136,FERNANDA PEREIRA,5713.99,rh
+1137,CARLOS SANTOS,3917.09,Logística
+1138,Felipe Santos,8240.01,marketing
+1139,Lucas Souza,3924.43,Logística
+1140,João Santos,3148.65,Jurídico
+1141,Carlos Silva,8389.99,JURÍDICO
+1142,rafael lima,5359.87,Produção
+1143,,3091.67,Produção
+1144,Julia Souza,9549.21,Marketing
+1145,Mariana Souza,3353.7,Logística
+1146,Paula Rodrigues,11682.86,RH
+1147,amanda pereira,12025.34,MARKETING
+1148,Rafael Santos,13275.03,
+1149,Paula Rodrigues,9769.34,VENDAS
+1150,João Souza,12702.05,Marketing
+1151,Carlos Pereira,11604.15,ti
+1152,Felipe Silva,9362.86,Logística
+1153,amanda oliveira,-13420.29,Logística
+1154,rafael rodrigues,,Financeiro
+1155,Carlos Santos,13213.74,Produção
+1156,Rafael Pereira,14354.57,
+1157,paula lima,,Produção
+1158,Lucas Santos,2097.86,Jurídico
+1159,Ana Costa,14436.37,RH
+1160,João Souza,4939.96,Jurídico
+1161,Mariana Souza,,VENDAS
+1162,Amanda Pereira,11177.1,TI
+1163,JULIA ALMEIDA,14967.33,
+1164,,11433.84,Logística
+1165,Paula Pereira,14443.22,financeiro
+1166,Rafael Almeida,7980.23,ti
+1167,Lucas Pereira,5988.86,Marketing
+1168,Thiago Nascimento,4406.31,MARKETING
+1169,julia costa,14239.85,
+1170,Rafael Santos,12512.54,RH
+1171,Felipe Lima,4835.8,RH
+1172,Ana Nascimento,10779.8,Vendas
+1173,Julia Souza,6756.5,logística
+1174,ANA ALMEIDA,11447.67,
+1175,Carlos Costa,1835.47,RH
+1176,Paula Almeida,,
+1177,PAULA SILVA,8188.69,TI
+1178,CARLOS PEREIRA,2909.29,Jurídico
+1179,Felipe Souza,2901.14,Produção
+1180,FERNANDA RODRIGUES,3988.88,
+1181,Felipe Silva,13692.72,RH
+1182,Rafael Almeida,1596.75,RH
+1183,João Santos,7658.67,RH
+1184,,2610.03,marketing
+1185,thiago almeida,5247.08,Marketing
+1186,,14087.29,MARKETING
+1187,Lucas Lima,5650.87,Financeiro
+1188,,14317.04,TI
+1189,carlos santos,2670.79,JURÍDICO
+1190,MARIANA ALMEIDA,14187.84,Marketing
+1191,Paula Nascimento,5315.55,TI
+1192,carlos silva,13793.34,TI
+1193,Mariana Almeida,13862.23,marketing
+1194,joão costa,7929.2,Logística
+1195,Felipe Oliveira,8632.12,FINANCEIRO
+1196,Julia Lima,14116.33,TI
+1197,Amanda Costa,-7841.81,RH
+1198,Paula Santos,10650.81,ti
+1199,Lucas Rodrigues,11881.88,Vendas
+1200,paula oliveira,8584.26,Logística
