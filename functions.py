@@ -31,7 +31,7 @@ def tratamento_dados(arquivo):
     print('Dados categóricos padronizados!')
 
     # Salvando arquivo tratado
-    df.to_csv(f'dados_tratado.csv', index='False')
+    df.to_csv(f'dados_tratado.csv', index=False)
 
     print('Tratamento finalizado...')
 
