@@ -1,0 +1,32 @@
+{
+    "estatisticas_gerais": {
+        "total_de_palavras": 50,
+        "total_de_palavras_unicas": 44,
+        "top_5_palavras_mais_comuns": [
+            [
+                "o",
+                4
+            ],
+            [
+                "da",
+                2
+            ],
+            [
+                "liberdade",
+                2
+            ],
+            [
+                "em",
+                2
+            ],
+            [
+                "ouviram",
+                1
+            ]
+        ]
+    },
+    "paragrafos_limpos": [
+        "ouviram do ipiranga as margens plácidas de um povo heróico o brado retumbante e o sol da liberdade em raios fúlgidos brilhou no céu da pátria nesse instante",
+        "se o penhor dessa igualdade conseguimos conquistar com braço forte em teu seio ó liberdade desafia o nosso peito a própria morte"
+    ]
+}

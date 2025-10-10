@@ -1,124 +1,106 @@
+"""
+Módulo de Manipulação de Arquivos (Extração)
+
+Este módulo contém as funções responsáveis por ler os diferentes tipos de arquivos
+(.csv, .xlsx, .pdf, .docx) e extrair seu conteúdo bruto.
+Ele separa a lógica de extração de tabelas e de textos em funções diferentes.
+"""
+
 import os
 import pdfplumber
 import pandas as pd
 from docx import Document
 
-# --- Funções de Leitura Específicas ---
-
-def obter_extensao(nome_arquivo: str) -> str:
-    _ , extensao = os.path.splitext(nome_arquivo)
-    return extensao.lower()
-
-def ler_pdf(nome_arquivo: str) -> pd.DataFrame:
-    print(f"\n---Iniciando a leitura do arquivo PDF: '{nome_arquivo}'...")
-    try:
-        with pdfplumber.open(nome_arquivo) as pdf:
-            if not pdf.pages:
-                print("\n--- AVISO: O arquivo PDF está vazio (não contém páginas).")
-                return None
-            
-            primeira_pagina = pdf.pages[0]
-            tabelas = primeira_pagina.extract_tables()
-
-            if not tabelas:
-                print("\n---AVISO: Nenhuma tabela foi encontrada na primeira página.")
-                return None
-
-            # Processa apenas a primeira tabela encontrada
-            primeira_tabela = tabelas[0]
-
-            if not primeira_tabela or len(primeira_tabela) < 1:
-                print("\n--- AVISO: A tabela encontrada no PDF está vazia.")
-                return None
-
-            df = pd.DataFrame(primeira_tabela[1:], columns=primeira_tabela[0])
-            print("\n---Leitura do PDF concluída com sucesso.")
-            return df
-
-    except Exception as e:
-        # Captura outras possíveis exceções
-        print(f"\n---ERRO ao processar o PDF: {e}")
-        return None
-
-def ler_csv(nome_arquivo: str) -> pd.DataFrame:
-    print(f"\n---Iniciando a leitura do arquivo CSV: '{nome_arquivo}'...")
-    try:
-        df = pd.read_csv(nome_arquivo)
-        print("\n---Leitura do CSV concluída com sucesso.")
-        return df
-    except FileNotFoundError:
-        print(f"\n---ERRO: O arquivo '{nome_arquivo}' não foi encontrado!")
-        return None
-    except Exception as e:
-        print(f"\n---ERRO ao ler o arquivo CSV: {e}")
-        return None
-
-def ler_docx(nome_arquivo: str) -> pd.DataFrame:
-    print(f"\n---Iniciando a leitura do arquivo DOCX: {nome_arquivo} ...")
-    try:
-        lista_tabelas = Document(nome_arquivo).tables
-        if not lista_tabelas:
-            print(f"\nArquivo {nome_arquivo} está vazio ou não possui tabelas!")
-            return None
-        
-        primeira_tabela = lista_tabelas[0]
-        tabela_completa = []
-        
-        for linha in primeira_tabela.rows:
-            texto_linha = []
-            for celula in linha.cells:
-                texto_linha.append(celula.text)
-            tabela_completa.append(texto_linha)
-        
-        if not tabela_completa or len(tabela_completa) < 1:
-            print(f"\n---ERRO: Tabela do arquivo {nome_arquivo} está vazia!")
-            return None
-        
-        df = pd.DataFrame(tabela_completa[1:], columns=tabela_completa[0])
-        print("\n--- Leitura do DOCX concluída com sucesso!")
-        return df
-
-    except FileNotFoundError:
-        print(f"\n---ERRO: O arquivo '{nome_arquivo}' não foi encontrado!")
-        return None
-    except Exception as e:
-        # Captura erros de parsing, encoding etc.
-        print(f"\n---ERRO ao ler o arquivo DOCX: {e}")
-        return None
-
-def ler_xlsx(nome_arquivo: str) -> pd.DataFrame:
-    """Lê a primeira aba de um arquivo XLSX (Excel) e a retorna como um DataFrame."""
-    print(f"\n---Iniciando a leitura do arquivo XLSX: '{nome_arquivo}'...")
-    try:
-        df = pd.read_excel(nome_arquivo)
-        print("\n---Leitura do XLSX concluída com sucesso.")
-        return df
-    except FileNotFoundError:
-        print(f"\n---ERRO: O arquivo '{nome_arquivo}' não foi encontrado!")
-        return None
-    except Exception as e:
-        print(f"\n---ERRO ao ler o arquivo XLSX: {e}")
-        return None
-
-# --- Função Principal de Orquestração ---
-
-def carregar_dados(nome_arquivo: str) -> pd.DataFrame:
+def extrair_tabela(caminho_arquivo: str) -> pd.DataFrame:
+    """
+    Extrai uma tabela de arquivos .csv ou .xlsx
+    """
+    print(f"   - Tentando extrair TABELA de '{os.path.basename(caminho_arquivo)}'...")
     
-    extensao = obter_extensao(nome_arquivo)
+    # Extrai a extensão do arquivo para determinar como lê-lo
+    _, extensao = os.path.splitext(caminho_arquivo)
+    extensao = extensao.lower()
 
-    # Usando um dicionário para selecionar a função.
-    funcoes_leitura = {
-        '.pdf': ler_pdf,
-        '.csv': ler_csv,
-        '.docx': ler_docx,
-        '.xlsx': ler_xlsx
-    }
+    # Bloco try/except para capturar possíveis erros durante a leitura do arquivo
+    try:
+        if extensao == '.csv':
+            # Se for CSV, usa a função read_csv do Pandas.
+            df = pd.read_csv(caminho_arquivo)
+        elif extensao == '.xlsx':
+            # Se for Excel, usa a função read_excel do Pandas.
+            df = pd.read_excel(caminho_arquivo)
+        else:
+            # Se a extensão não for suportada para tabelas, informa e retorna None.
+            print(f"   - ERRO: Extensão '{extensao}' não é suportada para extração de tabelas.")
+            return None
+        
+        print("     -> Tabela extraída com sucesso.")
+        # Retorna o DataFrame criado.
+        return df
+        
+    except Exception as e:
+        # Se qualquer outro erro ocorrer, imprime o erro e retorna None
+        print(f"   - ERRO ao ler o arquivo de tabela: {e}")
+        return None
 
-    # Procura a função no dicionário usando a extensão
-    funcao = funcoes_leitura.get(extensao)
+def extrair_texto(caminho_arquivo: str) -> list[str]:
+    """
+    Extrai o texto corrido de arquivos .pdf ou .docx, parágrafo por parágrafo
+    """
+    print(f"   - Tentando extrair TEXTO de '{os.path.basename(caminho_arquivo)}'...")
+    
+    _, extensao = os.path.splitext(caminho_arquivo)
+    extensao = extensao.lower()
+    lista_paragrafos = [] # Inicializa uma lista vazia para armazenar os parágrafos.
 
-    if funcao:
-        return funcao(nome_arquivo)
-    else:
-        print(f"\n---ERRO: A extensão '{extensao}' não é suportada.")
+    try:
+        if extensao == '.pdf':
+            # Usa a biblioteca pdfplumber para abrir e ler o PDF.
+            with pdfplumber.open(caminho_arquivo) as pdf:
+                # Corre cada página do documento.
+                for pagina in pdf.pages:
+                    texto_pagina = pagina.extract_text()
+                    # Se algum texto for extraído da página
+                    if texto_pagina:
+                        # divide o texto da página por quebras de linha ('\n') para simular parágrafos
+                        paragrafos_pagina = texto_pagina.split('\n')
+                        # Adiciona os "parágrafos" encontrados à lista principal
+                        lista_paragrafos.extend(paragrafos_pagina)
+
+        elif extensao == '.docx':
+            # Usa a biblioteca python-docx para abrir o documento Word
+            documento = Document(caminho_arquivo)
+            # A biblioteca já fornece uma lista de parágrafos
+            for paragrafo in documento.paragraphs:
+                # Adiciona o texto de cada parágrafo à lista
+                lista_paragrafos.append(paragrafo.text)
+        
+        else:
+            # Se a extensão não for suportada para textos, informa e retorna None
+            print(f"   - ERRO: Extensão '{extensao}' não é suportada para extração de texto.")
+            return None
+
+        # Limpa a lista, removendo itens vazios ou que contêm apenas espaços
+        paragrafos_filtrados = [] # Cria uma lista vazia para o resultado
+        for p in lista_paragrafos: # Corre cada parágrafo extraído
+            # A condição 'if p' verifica se a string não é vazia.
+            # A condição 'not p.isspace()' verifica se a string não contém apenas espaços em branco
+            if p and not p.isspace():
+                # Remove espaços em branco do início e do fim do parágrafo
+                paragrafos_filtrados.append(p.strip())
+
+        
+        # Se a lista final de parágrafos não estiver vazia
+        if paragrafos_filtrados:
+            print(f"     -> Texto extraído com sucesso. {len(paragrafos_filtrados)} parágrafos encontrados.")
+            # Retorna a lista de parágrafos limpos.
+            return paragrafos_filtrados
+        else:
+            # Se, após a filtragem, a lista estiver vazia, informa e retorna None
+            print("   - AVISO: Nenhum texto foi encontrado no arquivo.")
+            return None
+
+    except Exception as e:
+        # Se qualquer erro ocorrer durante o processo, imprime a mensagem e retorna None.
+        print(f"   - ERRO ao extrair texto do arquivo: {e}")
         return None
