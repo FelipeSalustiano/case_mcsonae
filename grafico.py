@@ -32,7 +32,7 @@ def criar_e_salvar_grafico_barras(dados: pd.DataFrame, eixo_x: str, eixo_y: str,
         plt.figure(figsize=(12, 7))
         
         # Plota os dados como um gráfico de barras
-        plt.bar(dados_ordenados[eixo_x], dados_ordenados[eixo_y])
+        plt.bar(dados_ordenados[eixo_x], dados_ordenados[eixo_y], edgecolor='black')
         
         # Define os textos do gráfico (título, rótulos dos eixos)
         plt.title(titulo, fontsize=16)
