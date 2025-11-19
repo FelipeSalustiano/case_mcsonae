@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+
 # --- CONFIG GERAL ---
 st.set_page_config(page_title="MC SONAE - Análise de Empresas", layout="wide")
 
@@ -53,7 +54,7 @@ else:
     @st.cache_data
     def carregar_dados():
         try:
-            df = pd.read_csv("empresas_2_tratado.csv")
+            df = pd.read_csv("saida/empresas_2_tratado.csv")
             df["Ano"] = pd.to_numeric(df["Ano"])
             return df
         except FileNotFoundError:
