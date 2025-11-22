@@ -4,7 +4,7 @@ import plotly.express as px
 
 
 # --- CONFIG GERAL ---
-st.set_page_config(page_title="MC SONAE - Análise de Empresas", layout="wide")
+st.set_page_config(page_title="MC SONAE - Análise de Empresas", page_icon="🛒", layout="wide")
 
 # --- ESTADO DE SESSÃO ---
 if "logado" not in st.session_state:
@@ -22,11 +22,30 @@ def tela_login():
     admin = st.checkbox("Entrar como Administrador")
 
     if st.button("Entrar"):
-        # ✅ Qualquer nome/senha podem logar
-        st.session_state.logado = True
-        st.session_state.is_admin = admin  # True se marcado
-        st.success(f"✅ Bem-vindo, {usuario}!")
-        st.rerun()
+
+        # ---- LOGIN DE ADMINISTRADOR ----
+        if admin:
+            if usuario == "admincesar" and senha == "admin123":
+                st.session_state.logado = True
+                st.session_state.is_admin = True
+                st.success("Login de administrador realizado!")
+                st.rerun()
+            else:
+                st.error("Usuário ou senha de administrador incorretos!")
+                return
+
+        # ---- LOGIN DE USUÁRIO COMUM ----
+        else:
+            if usuario and senha:
+                st.session_state.logado = True
+                st.session_state.is_admin = False
+                st.success(f"Bem-vindo, {usuario}!")
+                st.rerun()
+            else:
+                st.error("Preencha usuário e senha!")
+
+
+
 
 
 # --- EXIBE LOGIN SE NÃO ESTIVER LOGADO ---
