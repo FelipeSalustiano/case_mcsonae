@@ -4,7 +4,7 @@ import plotly.express as px
 import google.generativeai as genai
 
 # --- CONFIG GERAL ---
-st.set_page_config(page_title="MC SONAE - Análise de Empresas", layout="wide")
+st.set_page_config(page_title="MC SONAE - Análise de Empresas", page_icon="🛒", layout="wide")
 
 # --- ESTADO DE SESSÃO ---
 if "logado" not in st.session_state:
@@ -20,6 +20,7 @@ def tela_login():
     usuario = st.text_input("Usuário")
     senha = st.text_input("Senha", type="password")
     if st.button("Entrar"):
+<<<<<<< HEAD
         if usuario.strip() == "" or senha.strip() == "":
             st.error("❌ Preencha usuário e senha antes de entrar.")
             return
@@ -31,6 +32,32 @@ def tela_login():
             st.session_state.is_admin = False
         st.success(f"Bem-vindo, {usuario}!")
         st.rerun()
+=======
+
+        # ---- LOGIN DE ADMINISTRADOR ----
+        if admin:
+            if usuario == "admincesar" and senha == "admin123":
+                st.session_state.logado = True
+                st.session_state.is_admin = True
+                st.success("Login de administrador realizado!")
+                st.rerun()
+            else:
+                st.error("Usuário ou senha de administrador incorretos!")
+                return
+
+        # ---- LOGIN DE USUÁRIO COMUM ----
+        else:
+            if usuario and senha:
+                st.session_state.logado = True
+                st.session_state.is_admin = False
+                st.success(f"Bem-vindo, {usuario}!")
+                st.rerun()
+            else:
+                st.error("Preencha usuário e senha!")
+
+
+
+>>>>>>> f9dc36eac2186ccfb8efc8b195a7e9e7bd168a88
 
 # --- BLOQUEIO DE LOGIN ---
 if not st.session_state.logado:
