@@ -1,4 +1,12 @@
+# Ignorar arquivos de configuração sensíveis do Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Ignorar a pasta do ambiente virtual
 venv/
+.venv/
+env/
+
+# Ignorar arquivos temporários do Python
 __pycache__/
 *.pyc
-.env
