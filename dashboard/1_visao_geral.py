@@ -4,7 +4,7 @@ import plotly.express as px
 import google.generativeai as genai
 
 # --- CONFIG GERAL ---
-st.set_page_config(page_title="MC SONAE - Análise de Empresas", page_icon="🛒", layout="wide")
+st.set_page_config(page_title="MC SONAE - Análise de Empresas", layout="wide")
 
 # --- ESTADO DE SESSÃO ---
 if "logado" not in st.session_state:
@@ -20,9 +20,8 @@ def tela_login():
     usuario = st.text_input("Usuário")
     senha = st.text_input("Senha", type="password")
     if st.button("Entrar"):
-<<<<<<< HEAD
         if usuario.strip() == "" or senha.strip() == "":
-            st.error("❌ Preencha usuário e senha antes de entrar.")
+            st.error("Preencha usuário e senha antes de entrar.")
             return
         if usuario == "admin" and senha == "1234":
             st.session_state.logado = True
@@ -32,32 +31,6 @@ def tela_login():
             st.session_state.is_admin = False
         st.success(f"Bem-vindo, {usuario}!")
         st.rerun()
-=======
-
-        # ---- LOGIN DE ADMINISTRADOR ----
-        if admin:
-            if usuario == "admincesar" and senha == "admin123":
-                st.session_state.logado = True
-                st.session_state.is_admin = True
-                st.success("Login de administrador realizado!")
-                st.rerun()
-            else:
-                st.error("Usuário ou senha de administrador incorretos!")
-                return
-
-        # ---- LOGIN DE USUÁRIO COMUM ----
-        else:
-            if usuario and senha:
-                st.session_state.logado = True
-                st.session_state.is_admin = False
-                st.success(f"Bem-vindo, {usuario}!")
-                st.rerun()
-            else:
-                st.error("Preencha usuário e senha!")
-
-
-
->>>>>>> f9dc36eac2186ccfb8efc8b195a7e9e7bd168a88
 
 # --- BLOQUEIO DE LOGIN ---
 if not st.session_state.logado:
@@ -65,7 +38,7 @@ if not st.session_state.logado:
     st.stop()
 
 # --- DASHBOARD ---
-st.title("📊 Dashboard Financeiro - MC SONAE")
+st.title("Dashboard Financeiro - MC SONAE")
 
 # --- BOTÃO SAIR ---
 col1, col2 = st.columns([8, 1])
@@ -98,45 +71,64 @@ if df.empty:
     st.stop()
 
 # --- FUNÇÃO PARA RESUMO DO CONTEXTO (IA) ---
+
+# --- FUNÇÃO PARA RESUMO DO CONTEXTO (IA) - VERSÃO COMPLETA (Empresa, Setor, País, Ano) ---
 def resumo_contexto(df_filtrado):
+    # 1. Cabeçalho com os totais do que está na tela agora
     receita_atual = df_filtrado["Receita Total (receita bruta)"].sum()
     lucro_atual = df_filtrado["Lucro Líquido"].sum()
-    opex_atual = df_filtrado["Custo Operacional (OPEX)"].sum()
-    func_atual = df_filtrado["Número de Funcionários"].sum()
+    
+    resumo = f"Resumo Geral dos Dados Filtrados:\n"
+    resumo += f"Receita Total acumulada: R$ {receita_atual:,.2f}\n"
+    resumo += f"Lucro Líquido acumulado: R$ {lucro_atual:,.2f}\n\n"
 
-    resumo = f"Dados do Dashboard:\n"
-    resumo += f"Total de empresas: {df_filtrado['Empresa'].nunique()}\n"
-    resumo += f"Receita total: R$ {receita_atual:,.2f}, Lucro total: R$ {lucro_atual:,.2f}, "
-    resumo += f"OPEX total: R$ {opex_atual:,.2f}, Funcionários: {func_atual}\n"
-
-    top5 = df_filtrado.groupby("Empresa")["Receita Total (receita bruta)"].sum().nlargest(5)
-    resumo += "Top 5 empresas por receita:\n"
-    for i, (empresa, receita) in enumerate(top5.items(), 1):
-        resumo += f"{i}. {empresa}: R$ {receita:,.2f}\n"
+    # 2. Detalhamento linha a linha
+    # Agrupamos por TODAS as colunas importantes
+    dados_completo = df_filtrado.groupby(["Empresa", "Setor", "País", "Ano"])[
+        ["Receita Total (receita bruta)", "Lucro Líquido"] # Puxei o Lucro também para a IA ficar mais inteligente
+    ].sum().reset_index()
+    
+    # Ordenar por Receita (para as mais importantes aparecerem primeiro)
+    dados_completo = dados_completo.sort_values(by="Receita Total (receita bruta)", ascending=False)
+    
+    resumo += "Dados detalhados (Linha a linha):\n"
+    for index, row in dados_completo.iterrows():
+        # Montamos a "frase" que a IA vai ler
+        resumo += (
+            f"- Empresa: {row['Empresa']} | "
+            f"Setor: {row['Setor']} | "
+            f"País: {row['País']} | "
+            f"Ano: {row['Ano']} | "
+            f"Receita: R$ {row['Receita Total (receita bruta)']:,.2f} | "
+            f"Lucro: R$ {row['Lucro Líquido']:,.2f}\n"
+        )
     
     return resumo
 
 # --- CHAT GEMINI (NO TOPO) ---
-with st.expander("💬 Assistente do Dashboard (IA)", expanded=True):
+with st.expander("Assistente do Dashboard (IA)", expanded=True):
     pergunta = st.text_area("Digite sua pergunta sobre os dados do dashboard:")
-    if st.button("Responder IA", key="btn_gpt_expander"):
+
+    if st.button("Perguntar", key="btn_gpt_expander"):
         if pergunta.strip() == "":
             st.warning("Digite uma pergunta antes!")
         else:
             try:
                 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
                 modelo = genai.GenerativeModel("gemini-2.0-flash")
-                contexto = resumo_contexto(df)  # usa df ou df_filtrado se quiser contexto filtrado
+                contexto = resumo_contexto(df)  
                 prompt = f"""
                 Você é um assistente especializado no dashboard financeiro.
-                Baseie suas respostas nos dados abaixo e explique de forma clara:
+                Baseie suas respostas nos dados abaixo e explique de forma clara, simples e objetiva:
                 {contexto}
 
                 Pergunta do usuário: {pergunta}
                 """
                 resposta = modelo.generate_content(prompt)
-                st.session_state.chat.append(("Usuário", pergunta))
-                st.session_state.chat.append(("IA", resposta.text))
+                st.session_state.chat = [
+                        ("Usuário", pergunta),
+                        ("IA", resposta.text)
+                ]
             except Exception as e:
                 st.error("Erro ao conectar ao Gemini.")
                 st.error(str(e))
