@@ -1,6 +1,5 @@
 # Ignorar arquivos de configuração sensíveis do Streamlit
 .streamlit/secrets.toml
-.streamlit/config.toml
 
 # Ignorar a pasta do ambiente virtual
 venv/
